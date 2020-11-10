@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+body{
+    margin: 0;
+    color: #555;
+    font-family: 'Montserrat', Sans-Serif;
+}
+#header{
+    background-color: #1abc9c;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    line-height: 150px;
+}
+#header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+#header a:hover{
+    color: #222;
+}
+.logo{
+    position: absolute;
+    height: 150px;
+}
+
+#header-title {
+    font-size: 50px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    position: relative;
+    left: 150px;
+}
+#header-nav{
+    display: block;
+    float: right;
+    margin-top: 0;
+    
+}
+#header-nav li{
+    font-size: 30px;
+    display: inline;
+    padding: 0 20px 0 5px;
+    
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+a{
+    color: #1abc9c;
+    text-decoration: none;
+}
+a:hover{
+    color: #F6A623;
+}
+.post, .about{
+    max-width: 800px;
+    margin: 0 auto ;
+    padding:60px 0;
+}
+.post-author img{
+    vertical-align: middle;
+    height: 250px;
+    width: 250px;
+}
+.post-author span{
+    margin-left: 16px;
+}
+.post-date{
+    color: #D2D2D2;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+h1,h2,h3,h4{
+    color: #333;
+}
+p{
+    line-height: 1.5;
+}
+.about{
+    text-align: center;
+    min-width: 300px;
+    max-width: 1500px;
+}
+.post-author img,.about-author img{
+    border-radius: 50%;
+}
+/*.post-container:nth-child(even) {
+    background-color: #f6f2f2;
+}
+*/
+
+#footer{
+    background-color: #2F2F2F;
+    padding: 50px 0;
+}
+.column{
+    min-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+#footer h4 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+#footer p{
+    font-size: 20px;
+    color: white;
+}
+/*marquee{
+    color: #1abc9c;
+    margin: auto;
+    padding: auto;
+    font-size: 30px;
+    background-color: #15f;
+}*/
